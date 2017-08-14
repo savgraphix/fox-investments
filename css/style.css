@@ -182,9 +182,51 @@ h1{
 
 }
 
+/* Bottom keyboard */
+
+.bottom-bnr {
+    background: url(../images/Computer-img.png) no-repeat center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    height: 500px; 
+}
+
+.bottom-bnr-text {
+    color: white;
+    width: 475px;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 1rem;
+}
+
+.bottom-bnr-text h2{
+    color: white;
+    width: 475px;
+    font-size: 48px;
+    padding: 1rem;
+    
+}
+
+.we-work-for-u{
+    width: 300px;
+    position: absolute;
+    right: 210px;
+    padding: 6rem 1rem;
+
+}
+
+.white-btn {
+    background: transparent;
+    border: 1px solid white;
+}
+
+
+
 /* Footer */
 
-footer { background: #F6921E; }
+footer { background: #F6921E; padding: 100px 20px; }
 
 .footer-container {
     padding: 10px 75px;
