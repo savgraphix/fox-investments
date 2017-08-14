@@ -1,0 +1,208 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background: #4d4d4d;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 27px;
+    font-weight: 300;
+    border: none;
+    
+}
+
+
+/*Top search*/
+
+.log-in-btn {
+    position: absolute;
+    right: 550px;
+    top: 61px;
+
+}
+
+.search {
+    width: 500px;
+   width: 500px;
+    background: white;
+    padding: 10px;
+    position: absolute;
+    right: 676px;
+    top: 62px;
+}
+
+.search img {
+    float: right;
+    padding: 5px;
+}
+
+input { border: 0;}
+
+.top-search {
+   padding: 10px 75px;
+   position: absolute;
+   right: 85px;
+    top:0;
+
+}
+
+.orange-skew {
+    background-color:#F6921E;
+    transform:skewX(145deg);
+    float: left;
+    margin-top: -20px;
+    padding: 100px;
+    position: absolute;
+    right: 250px;
+
+}
+
+.top-search p {
+    color: white;
+    float: left;
+    margin-top: -20px;
+    padding: 80px;
+    position: absolute;
+    right: 223px;
+    z-index: 999;
+
+}
+
+
+/*Logo and Nav*/
+
+nav {
+    background: #4d4d4d;
+    padding: 10px 60px 10px 60px;
+    height: 70px;
+}
+
+nav img {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4d4d4d;
+    float: right;
+    display: inline-block;
+}
+
+li{
+    color: white;
+    float: left;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 200;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    border-bottom: 1px solid #F6921E;
+}
+
+.hero {
+    background: url(../images/Fox_hero_bnr-img.png) no-repeat center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    height: 775px;
+    
+}
+
+.nav-container {
+    position: absolute;
+    top: 145px;
+    width: 100%;
+
+}
+
+/* Sign up */
+
+
+h1{ 
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+    
+}
+.sign-up {
+    width: 445px;
+   position: absolute;
+   top: 32%;
+   left: 13%;
+
+}
+
+.sign-up p{
+    color: white;
+}
+
+.sign-up h1{
+    line-height: 65px;
+}
+
+.sign-up-btn{
+    padding: 0 60px;
+}
+
+/*middle section*/
+
+.middle-section {
+    margin: 2rem;
+}
+
+.middle-section h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #4d4d4d;
+
+}
+
+.middle-section p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #4d4d4d;
+    padding: 0px 35px;
+
+}
+
+/* Footer */
+
+footer { background: #F6921E; }
+
+.footer-container {
+    padding: 10px 75px;
+}
+
+.footer-text{
+    padding: 0 15%;
+    color: white;
+}
+
+
+
+
+.social-icon a{
+    text-decoration: none;
+}
+
+.social-icon{
+    padding-bottom: 10px;
+    border-bottom: 1px white solid;
+}
