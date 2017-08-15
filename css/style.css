@@ -162,7 +162,7 @@ h1{
 /*middle section*/
 
 .middle-section {
-    margin: 8rem;
+    margin: 4rem 2rem;
 }
 
 .middle-section h2{
@@ -195,10 +195,11 @@ h1{
 
 .bottom-bnr-text {
     color: white;
-    width: 475px;
+    width: 650px;
     font-size: 24px;
     line-height: 36px;
-    padding: 1rem;
+    padding: 3rem 6rem;
+
 }
 
 .bottom-bnr-text h2{
