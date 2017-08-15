@@ -12,23 +12,32 @@ button {
     
 }
 
+.container {
+    padding: 0;
+}
+
+
+/*W3 over write */
+
+.w3-container, .w3-panel {
+    padding: 0;
+}
 
 /*Top search*/
 
 .log-in-btn {
     position: absolute;
-    right: 550px;
+    right: 490px;
     top: 61px;
 
 }
 
 .search {
-    width: 500px;
-   width: 500px;
+    width: 350px;
     background: white;
     padding: 10px;
     position: absolute;
-    right: 676px;
+    right: 580px;
     top: 62px;
 }
 
@@ -42,7 +51,7 @@ input { border: 0;}
 .top-search {
    padding: 10px 75px;
    position: absolute;
-   right: 85px;
+   right: -290px;
     top:0;
 
 }
@@ -65,7 +74,7 @@ input { border: 0;}
     padding: 80px;
     position: absolute;
     right: 223px;
-    z-index: 999;
+    z-index: 1;
 
 }
 
@@ -79,17 +88,24 @@ nav {
 }
 
 nav img {
-    float: left;
+    margin-top: 10px;
+    margin-left: -90px;
 }
 
+.hamburger 
+    {
+    font-size:30px;
+    cursor:pointer;
+    color: white;
+    position: absolute;
+    right: -100px;
+        padding: 11px;
+
+}
+
+
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #4d4d4d;
-    float: right;
-    display: inline-block;
+    display: none;
 }
 
 li{
@@ -128,6 +144,42 @@ li a:hover {
     width: 100%;
 
 }
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #4d4d4d;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #F6921E;
+    border-bottom: 1px solid #F6921E;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
 
 /* Sign up */
 
@@ -195,10 +247,11 @@ h1{
 
 .bottom-bnr-text {
     color: white;
-    width: 650px;
+    width: 800px;
     font-size: 24px;
     line-height: 36px;
-    padding: 3rem 6rem;
+    padding: 3rem 12rem;
+
 
 }
 
@@ -213,8 +266,8 @@ h1{
 .we-work-for-u{
     width: 300px;
     position: absolute;
-    right: 210px;
-    padding: 6rem 1rem;
+    right: 190px;
+    padding: 4rem 1rem;
 
 }
 
@@ -249,3 +302,55 @@ footer { background: #F6921E; padding: 100px 20px; }
     padding-bottom: 10px;
     border-bottom: 1px white solid;
 }
+
+
+/* Media queries */
+
+@media (min-width: 940px) {
+    
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #4d4d4d;
+        float: right;
+        display: inline-block;
+        position: absolute;
+        right: 200px;
+
+        }
+    
+.container{ padding: 10px 75px;}
+    
+ .top-search {
+   right: 85px;
+}
+    
+.log-in-btn {
+    right: 550px;
+
+}
+    
+.search {
+    width: 500px;
+    right: 675px;
+}
+    
+nav img {
+    margin-top: 0px;
+}
+    
+.hamburger 
+{
+    display: none;
+}
+
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
