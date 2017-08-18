@@ -98,8 +98,9 @@ nav img {
     cursor:pointer;
     color: white;
     position: absolute;
-    right: -100px;
-        padding: 11px;
+    right: -375px;
+    padding: 11px;
+    z-index: 1;
 
 }
 
@@ -156,6 +157,9 @@ li a:hover {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    font-size: 21px;
+    font-weight: 200;
+
 }
 
 .sidenav a {
@@ -242,15 +246,15 @@ h1{
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-    height: 500px; 
+    height: 850px; 
 }
 
 .bottom-bnr-text {
     color: white;
-    width: 800px;
+    width: 500px;
     font-size: 24px;
     line-height: 36px;
-    padding: 3rem 12rem;
+    padding: 3rem 5rem;
 
 
 }
@@ -263,12 +267,13 @@ h1{
     
 }
 
-.we-work-for-u{
+.we-work-for-u{   
     width: 300px;
     position: absolute;
-    right: 190px;
-    padding: 4rem 1rem;
-
+    right: 60px;
+    padding: 4rem 2rem;
+    margin-top: 33rem;
+    
 }
 
 .white-btn {
@@ -341,12 +346,27 @@ nav img {
     margin-top: 0px;
 }
     
-.hamburger 
-{
+.hamburger {
     display: none;
 }
+    
+.bottom-bnr-text {
+    width: 800px;
+    padding: 3rem 12rem;
+}
+    
+.bottom-bnr {
+    height: 500px; 
+}
 
+.we-work-for-u{
+    right: 190px;
+    padding: 4rem 1rem;
+    margin-top: 0;  
 
+    }
+     
+    
 }
 
 @media screen and (max-height: 450px) {
