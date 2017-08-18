@@ -25,20 +25,17 @@ button {
 
 /*Top search*/
 
+
+
 .log-in-btn {
     position: absolute;
-    right: 490px;
+    right: 540px;
     top: 61px;
-
+    width: 200px;
 }
 
 .search {
-    width: 350px;
-    background: white;
-    padding: 10px;
-    position: absolute;
-    right: 580px;
-    top: 62px;
+    display: none;
 }
 
 .search img {
@@ -88,8 +85,8 @@ nav {
 }
 
 nav img {
-    margin-top: 10px;
-    margin-left: -90px;
+    margin-top: -10px;
+    margin-left: 90px;
 }
 
 .hamburger 
@@ -98,7 +95,7 @@ nav img {
     cursor:pointer;
     color: white;
     position: absolute;
-    right: -375px;
+    right: -150px;
     padding: 11px;
     z-index: 1;
 
@@ -343,7 +340,10 @@ ul {
 }
     
 nav img {
+    
     margin-top: 0px;
+    margin-left: -90px;
+    
 }
     
 .hamburger {
@@ -365,6 +365,22 @@ nav img {
     margin-top: 0;  
 
     }
+    
+.search {
+    width: 350px;
+    background: white;
+    padding: 10px;
+    position: absolute;
+    right: 725px;
+    top: 62px;
+    display: block;
+}
+    
+.log-in-btn {
+    position: absolute;
+    right: 490px;
+    top: 61px;
+}
      
     
 }
