@@ -85,8 +85,8 @@ nav {
 }
 
 nav img {
-    margin-top: -10px;
-    margin-left: 90px;
+    margin-top: 7px;
+    margin-left: 135px;
 }
 
 .hamburger 
@@ -95,7 +95,7 @@ nav img {
     cursor:pointer;
     color: white;
     position: absolute;
-    right: -150px;
+    right: -450px;
     padding: 11px;
     z-index: 1;
 
@@ -141,6 +141,10 @@ li a:hover {
     top: 145px;
     width: 100%;
 
+}
+
+.container-1 {
+    width: 1024px;
 }
 
 .sidenav {
@@ -315,7 +319,6 @@ ul {
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #4d4d4d;
         float: right;
         display: inline-block;
         position: absolute;
@@ -340,10 +343,7 @@ ul {
 }
     
 nav img {
-    
     margin-top: 0px;
-    margin-left: -90px;
-    
 }
     
 .hamburger {
@@ -383,6 +383,18 @@ nav img {
 }
      
     
+}
+
+@media (max-width: 939px) {
+  .hamburger {
+    right: -165px; 
+}
+}
+
+@media (max-width: 600px) {
+  .hamburger {
+    right: -485px; 
+}
 }
 
 @media screen and (max-height: 450px) {
